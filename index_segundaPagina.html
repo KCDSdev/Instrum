@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calibracao</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index_primeiraPagina.html">Home</a>
+            <a class="cabecalho__menu__link" href="index_segundaPagina.html">Calibração</a>
+            <a class="cabecalho__menu__link" href="index_terceiraPagina.html">Histórico</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="reg">CERTIFICADO DE CALIBRAÇÃO</h1>
+        <form class="container__superior">
+            <input type="text" placeholder="Nome" name="Nome"/>
+            <input type="datetime-local" name="Data"/>
+            <input type="manufactur" placeholder="Fabricante" id="Fabricante"/>
+            <input type="number" placeholder="Upper Range" id="URV"/>
+            <input type="number" placeholder="Lower Range" id="LRV"/>
+            <input type="text" placeholder="engineering unit " id="UE"/>
+            
+        </form>
+        <form class="container__meio">
+            <h1 class="cal">CALIBRAÇÃO E AJUSTE</h1>
+            <table border="1" class="tabela">
+                <tr>
+                    <th>%</th>
+                    <th>PADRÃO</th>
+                    <th>CALIBRAÇÃO</th>
+                    <th>AJUSTE</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" placeholder="--" id="place_0"/></td>
+                    <td><input type="number" placeholder="--" id="place_1"/></td>
+                    <td><input type="number" placeholder="--" id="place_2"/></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td><input type="number" placeholder="--" id="place_3"/></td>
+                    <td><input type="number" placeholder="--" id="place_4"/></td>
+                    <td><input type="number" placeholder="--" id="place_5"/></td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td><input type="number" placeholder="--" id="place_6"/></td>
+                    <td><input type="number" placeholder="--" id="place_7"/></td>
+                    <td><input type="number" placeholder="--" id="place_8"/></td>
+                </tr>
+                <tr>
+                    <td>75</td>
+                    <td><input type="number" placeholder="--" id="place_9"/></td>
+                    <td><input type="number" placeholder="--" id="place_10"/></td>
+                    <td><input type="number" placeholder="--" id="place_11"/></td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td><input type="number" placeholder="--" id="place_12"/></td>
+                    <td><input type="number" placeholder="--" id="place_12"/></td>
+                    <td><input type="number" placeholder="--" id="place_14"/></td>
+                </tr>
+                <tr>
+                    <td>75</td>
+                    <td><input type="number" placeholder="--" id="place_15"/></td>
+                    <td><input type="number" placeholder="--" id="place_16"/></td>
+                    <td><input type="number" placeholder="--" id="place_17"/></td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td><input type="number" placeholder="--" id="place_18"/></td>
+                    <td><input type="number" placeholder="--" id="place_19"/></td>
+                    <td><input type="number" placeholder="--" id="place_20"/></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td><input type="number" placeholder="--" id="place_21"/></td>
+                    <td><input type="number" placeholder="--" id="place_22"/></td>
+                    <td><input type="number" placeholder="--" id="place_23"/></td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td><input type="number" placeholder="--" id="place_24"/></td>
+                    <td><input type="number" placeholder="--" id="place_25"/></td>
+                    <td><input type="number" placeholder="--" id="place_26"/></td>
+                </tr>
+            </table>
+            
+        </form>
+        <form class="container_meio__sub">
+            <table class="padrao">
+                <input type="text" placeholder="PADRÃO" name="Nome"/>
+                <input type="date" class="Padrão">
+            </table>
+        </form>
+        <form class="container__inferior">
+            <input type="text" placeholder="Descriptor" id="Descricao" style="height: 100px; width: 600px;">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer class="rodape">Powered by KCDS</footer>
+</body>
+</html>
